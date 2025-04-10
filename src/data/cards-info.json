@@ -1,0 +1,226 @@
+[
+    {
+        "id": "xmtbl-1",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-2",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 71.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-3",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-4",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-5",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 71.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-6",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-7",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      },
+      {
+        "id": "xmtbl-8",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
+        "img": "../../public/images/image 70.svg",
+        "brand": "PIRELLI",
+        "model": "CINTURATO P7",
+        "season": "Зимняя",
+        "type": "Шипованная",
+        "condition": "Грязевая",
+        "price": 6750,
+        "originalPrice": 6750,
+        "discount": 0,
+        "point": 4,
+        "labels": "10 отзывов",
+        "inStock": true,
+        "rating": 4,
+        "actionButtons": {
+          "addToCart": "В корзину",
+          "buyNow": "Купить в 1 клик"
+        },
+        "specs": {
+          "width": 205,
+          "profile": 55,
+          "diameter": 16,
+          "loadIndex": 91,
+          "speedIndex": "V"
+        }
+      }
+]

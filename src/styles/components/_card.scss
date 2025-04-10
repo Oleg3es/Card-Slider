@@ -1,0 +1,227 @@
+@use '../base/mixins' as *;
+@use '../base/media' as *;
+
+.card {
+    position: relative;
+    width: 340px;
+
+    @include desktop-b {
+        width: 300px;
+    }
+
+    @media (max-width: 980px) {
+        width: 229px
+    }
+
+    @include mobile {
+        width: 212px;
+    }
+
+    @media (max-width: 479px) {
+        width: 280px;
+    }
+
+    &__preview {
+        display: flex;
+        column-gap: 60px;
+        position: relative;
+        z-index: 0;
+
+        @media (max-width: 1280px) {
+            column-gap: 25px;
+        }
+
+        @include mobile-s {
+            column-gap: 30px;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 3px;
+        }
+
+        &-item {
+            background-color: var(--background-color-btn-preview);
+            border-radius: var(--border-radius-btn);
+            padding: 6.5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background-color: #d8c6c6;
+                transition:
+                    background-color 0.5s ease,
+                    transform 0.3s ease,
+                    box-shadow 0.4s ease;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-color-btn-preview);
+        padding: 20px;
+        border-radius: var(--border-radius);
+        row-gap: 24px;
+        position: relative;
+        z-index: 20;
+
+        @include tablet {
+            margin-top: -53px;
+        }
+
+        @media (max-width: 980px) {
+            padding: 12px 10px;
+        }
+
+        @include mobile {
+            margin-top: 0;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+
+            &-rating {
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+
+                @include mobile {
+                    column-gap: 6px;
+                }
+
+                &-label {
+                    font-size: 12px;
+                }
+            }
+
+            &-type {
+                &-list {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 6px;
+                }
+
+                &-item {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 6px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        &-purchase {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+
+            &-price {
+                &-originalPrice {
+                    font-size: 20px;
+                    color: rgba(136, 136, 136, 1);
+                    text-decoration: line-through;
+                    text-decoration-thickness: 2.4px;
+                }
+
+                &-now {
+                    font-size: 26px;
+                }
+            }
+
+            &-basket {
+                display: flex;
+                align-items: center;
+
+                &-count {
+                    display: flex;
+                    align-items: center;
+                    background-color: var(--color-card);
+                    padding: 12px 11px;
+                    max-height: 44px;
+                    justify-content: space-between;
+                    width: 99px;
+                    border-radius: 4px;
+
+                    @media (max-width: 980px) {
+                        display: none;
+                    }
+
+                    button {
+                        @include reset-button;
+                        font-size: 30px;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                }
+
+                &-btn {
+                    @include reset-button;
+                    height: var(--button-height);
+                    border-radius: var(--border-radius-btn-buy);
+                    background-color: var(--color-button);
+                    padding-inline: 35px;
+                    margin: 0 10px 0 20px;
+                    color: var(--color-page);
+                    font-size: 15px;
+                    cursor: pointer;
+                    white-space: nowrap;
+
+                    @include desktop-b {
+                        padding-inline: 20px;
+                        margin: 0 10px 0 10px;
+                    }
+
+                    @media (max-width: 980px) {
+                        padding-inline: 49px;
+                        margin: 0 10px 0 0;
+                    }
+
+                    @include mobile {
+                        padding-inline: 40px;
+                    }
+                }
+
+                &-like {
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        fill: #ff6b6b;
+                        stroke: #ff4757;
+                        filter: drop-shadow(0 2px 4px rgba(255, 107, 107, 0.3));
+
+                        &:active {
+                            transform: scale(0.9);
+                            fill: #ff0000;
+                            stroke: #cc0000;
+                            transition: all 0.1s ease;
+                        }
+                    }
+                }
+            }
+
+            &-buy {
+                @include reset-button;
+                height: var(--button-height);
+                border-radius: var(--border-radius-btn-buy);
+                border: 1px solid #c5c5c5;
+                cursor: pointer;
+            }
+        }
+    }
+}

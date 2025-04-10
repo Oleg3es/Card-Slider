@@ -1,0 +1,28 @@
+:root {
+    --color-page: rgba(255, 255, 255, 1);
+    --color-main-text: rgba(58, 58, 58, 1);
+
+    --color-button: rgba(228, 29, 27, 1);
+    --color-card: rgba(255, 255, 255, 1);
+
+    --background-color-btn-preview: rgba(233, 233, 233, 1);
+
+    --border-radius: 12px;
+    --border-radius-btn-buy: 10px;
+    --border-radius-btn: 80px;
+
+    --font-family: 'IBM Plex Sans', sans-serif;
+
+    --container-width: 1440px;
+    --container-padding-x: 24px;
+
+    --main-featured-padding-y: 60px;
+
+    --button-height: 44px;
+
+    --transition-duration: 0.2s;
+
+    @media (min-width: 768px) {
+        --container-padding-x: 20px;
+      }
+}

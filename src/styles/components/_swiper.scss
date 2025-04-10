@@ -1,0 +1,51 @@
+@use '../base/media' as *;
+
+.custom-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.custom-prev,
+.custom-next {
+    background: #f0f0f0;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: var(--border-radius-btn);
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-navigation svg {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
+
+.swiper {
+    position: relative;
+    width: calc(100% + 220px);
+
+    @include desktop-b {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    @media (max-width: 1280px) {
+        width: calc(100% + 30px);
+    }
+
+    @include mobile-s {
+        width: 100%;
+    }
+
+    &-slide {
+        @include mobile-s {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

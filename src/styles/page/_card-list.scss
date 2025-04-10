@@ -1,0 +1,39 @@
+@use '../base/mixins' as *;
+@use '../base/media' as *;
+
+.card-list {
+    margin-top: 40px;
+
+    @include mobile-s {
+        margin-top: 20px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        line-height: 52px;
+    }
+
+    &__items {
+        margin-top: 20px;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        &-btn {
+            @include reset-button;
+            height: var(--button-height);
+            background-color: var(--color-button);
+            cursor: pointer;
+            color: var(--color-page);
+            padding-inline: 73px;
+            border-radius: var(--border-radius-btn-buy);
+
+            @include mobile-s {
+                padding-inline: 25px;
+            }
+        }
+    }
+}
