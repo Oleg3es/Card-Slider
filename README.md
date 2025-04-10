@@ -1,5 +1,7 @@
 # React + Vite
 
+to start: npm run dev
+
 General information
 This project is a modern web application built using the following technologies:
 
