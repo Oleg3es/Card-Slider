@@ -1,12 +1,45 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+General information
+This project is a modern web application built using the following technologies:
 
-Currently, two official plugins are available:
+React (library for building window interfaces)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite (fast tool for building modern web applications)
 
-## Expanding the ESLint configuration
+SCSS (CSS preprocessor with advanced features)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key features
+
+1. Project architecture
+Modular structure components
+
+Support for CSS modules via SCSS
+
+Global and component styles
+
+CSS variables for complex style management
+
+2. Tech stack
+React 18 with functional components and hooks
+
+Vite 4.x for lightning-fast build and hot reloading
+
+SCSS with support for:
+
+Nested rules
+
+Variables
+
+Mixins
+
+Media queries
+
+ESLint for code quality checking
+
+3. Performance
+Optimized build thanks to Vite
+
+Code Splitting out of the box
+
+Support stimulating imports
